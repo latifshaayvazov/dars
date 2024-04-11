@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.box{
+    width: 400px;
+    height: 249px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+#box1{
+    background-image: url("https://www.meblar.com.pl/wp-content/uploads/2020/10/meblar-nowosci20-2.jpg");
+    background-size: contain;
+    background-size: cover;
+}
+#box2{
+    background-image: url("https://www.meblar.com.pl/wp-content/uploads/2023/08/system-szaf-dab-artisan-szafy-modulowe.jpg");
+    background-size: contain;
+    background-size: cover;
+}
+#box3{
+    background-image: url("https://www.meblar.com.pl/wp-content/uploads/2023/08/sypialna-z-lamelami-allmo-.jpg");
+    background-size: contain;
+    background-size: cover;
+}
+
+.bigbox{
+    width: 80%;
+    height: 747px;
+    border: 1px solid #fff;
+   
+}
+.bigbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 3s all linear;
+}
